@@ -12,7 +12,10 @@ This terraform will deploy the following:
   - **GKE Node** - E2-Standard8 nodes x3
 - **GCS Bucket** - For incidentials
   
-
+## This solution assumes:
+- [Project is already created](https://cloud.google.com/resource-manager/docs/creating-managing-projects#console)
+- [Billing Account Connected](https://cloud.google.com/billing/docs/how-to/modify-project#enable_billing_for_a_project)
+- [Current user has Project Editor Permissions](https://cloud.google.com/iam/docs/grant-role-console#grant_an_iam_role)
 
 
 # Tool Setup Guide
